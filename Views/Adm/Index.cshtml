@@ -1,0 +1,47 @@
+@model List<LP3_Avaliacao_3bi.ViewModels.ShoppingViewModel>
+
+@{
+    ViewData["Title"] = "Gerenciar Lojas e Quiosques";
+}
+
+<div class="text-center">
+    <h1>Gerenciar Lojas e Quiosques</h1><br>
+    <form action="Adm/Register"><button class="btn btn-primary">Cadastrar</button></form><br><br>
+
+    @if(Model.Count == 0) 
+    {
+        <p>Nenhum(a) loja/quiosque cadastrado(a)</p>
+    }
+    else
+    {
+        <table class="table table-bordered table-responsive table-hover" border="1">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Piso</th>
+                    <th>Nome</th>
+                    <th>Descrição</th>
+                    <th>Loja/Quiosque</th>
+                    <th>Email</th>
+                    <th colspan="2">Ação</th>
+                </tr>
+            </thead>
+
+            @foreach(var store in Model)
+            {
+                <tbody>
+                    <tr>
+                        <td>@store.Id</td>
+                        <td>@store.Floor</td>
+                        <td>@store.Name</td>
+                        <td>@store.Description</td>
+                        <td>@store.Store</td>
+                        <td>@store.Email</td>
+                        <td><a href="Adm/Show/@store.Id">Detalhes</a></td>
+                        <td><form action="Adm/Delete/@store.Id"><button class="btn btn-danger">Excluir</button></form></td>
+                    </tr>
+                </tbody>
+            }
+        </table>
+    }
+</div>

@@ -1,0 +1,17 @@
+@model LP3_Avaliacao_3bi.ViewModels.ShoppingViewModel
+
+@{
+    ViewData["Title"] = "Detalhes Loja/Quiosque";
+}
+
+<h1>@Model.Store @Model.Name</h1>
+<form action="/Adm/Delete/@Model.Id"><button type="submit" class="btn btn-danger">Excluir <i class="glyphicon glyphicon-trash"></i></button></form>
+<hr>
+
+<p><b>Id:</b> @Model.Id</p>
+<p><b>Piso:</b> @Model.Floor</p>
+<p><b>Descrição:</b> @Model.Description</p>
+<p><b>Loja/Quiosque:</b> @Model.Store</p>
+<p><b>E-mail:</b> @Model.Email</p>
+
+<form action="/Adm"><button class="btn btn-primary">Voltar</button></form>

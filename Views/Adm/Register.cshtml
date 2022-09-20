@@ -1,0 +1,64 @@
+@{
+    ViewData["Title"] = "Registrar Loja/Quiosque";
+}
+
+<div class="form-vertical">
+    <div class="text-center">
+        <h1>Cadastramento de Loja/Quiosque</h1>
+        <p>Utilize o formulário abaixo para cadastrar sua loja.</p><br>
+
+        <form action="RegisterData" method="post">
+            <div class="form-group">
+                <label for="name"><b>Id</b></label>
+                <div class="col-md-15">
+                    <input type="number" name="id" id="id" required>
+                </div>
+            </div><br>
+
+            <div class="form-group">
+                <label for="floor"><b>Piso</b></label>
+                <div class="col-md-15">
+                    <input type="radio" name="floor" id="Piso1">
+                    <label for="Piso1">1</label>
+                    <input type="radio" name="floor" id="Piso2">
+                    <label for="Piso2">2</label>
+                    <input type="radio" name="floor" id="Piso3">
+                    <label for="Piso3">3</label>
+                </div>
+            </div><br>
+
+            <div class="form-group">
+                <label for="name"><b>Nome Da Loja/Quiosque</b></label>
+                <div class="col-md-15">
+                    <input type="text" name="name" id="name" pattern="^[^-\s][a-zA-ZÀ-ú ]{2,250}$" required>
+                </div>
+            </div><br>
+
+            <div class="form-group">
+                <label for="description"><b>Descrição</b></label>
+                <div class="col-md-15">
+                    <textarea id="description" name="description" id="description" rows="4" cols="50" minlength="20" maxlength="500" required></textarea>
+                </div>
+            </div><br>
+
+            <div class="form-group">
+                <label for="type"><b>Tipo</b></label>
+                <div class="col-md-15">
+                    <input type="radio" name="type" id="Loja">
+                    <label for="Loja">Loja</label>
+                    <input type="radio" name="type" id="Quiosque">
+                    <label for="Quiosque">Quiosque</label>
+                </div>
+            </div><br>
+
+            <div class="form-group">
+                <label for="email"><b>E-mail</b></label>
+                <div class="col-md-15">
+                    <input type="email" name="email" id="email" required>
+                </div>
+            </div><br>
+            
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+</div>

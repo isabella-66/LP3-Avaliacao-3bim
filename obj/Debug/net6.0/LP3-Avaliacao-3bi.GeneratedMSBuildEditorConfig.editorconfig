@@ -1,0 +1,72 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LP3_Avaliacao_3bi
+build_property.RootNamespace = LP3_Avaliacao_3bi
+build_property.ProjectDir = C:\Users\Administrador\Documents\Ensino Médio - 3° ano\LP3 3º\Avaliações\LP3-Avaliacao-3bi\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Administrador\Documents\Ensino Médio - 3° ano\LP3 3º\Avaliações\LP3-Avaliacao-3bi
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Administrador/Documents/Ensino Médio - 3° ano/LP3 3º/Avaliações/LP3-Avaliacao-3bi/Views/Adm/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/Documents/Ensino Médio - 3° ano/LP3 3º/Avaliações/LP3-Avaliacao-3bi/Views/Adm/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/Documents/Ensino Médio - 3° ano/LP3 3º/Avaliações/LP3-Avaliacao-3bi/Views/Adm/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/Documents/Ensino Médio - 3° ano/LP3 3º/Avaliações/LP3-Avaliacao-3bi/Views/Adm/RegisterData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtXFJlZ2lzdGVyRGF0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/Documents/Ensino Médio - 3° ano/LP3 3º/Avaliações/LP3-Avaliacao-3bi/Views/Adm/RegisterExistentError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtXFJlZ2lzdGVyRXhpc3RlbnRFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/Documents/Ensino Médio - 3° ano/LP3 3º/Avaliações/LP3-Avaliacao-3bi/Views/Adm/RegisterNegativeError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtXFJlZ2lzdGVyTmVnYXRpdmVFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/Documents/Ensino Médio - 3° ano/LP3 3º/Avaliações/LP3-Avaliacao-3bi/Views/Adm/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtXFNob3cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/Documents/Ensino Médio - 3° ano/LP3 3º/Avaliações/LP3-Avaliacao-3bi/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/Documents/Ensino Médio - 3° ano/LP3 3º/Avaliações/LP3-Avaliacao-3bi/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/Documents/Ensino Médio - 3° ano/LP3 3º/Avaliações/LP3-Avaliacao-3bi/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/Documents/Ensino Médio - 3° ano/LP3 3º/Avaliações/LP3-Avaliacao-3bi/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/Documents/Ensino Médio - 3° ano/LP3 3º/Avaliações/LP3-Avaliacao-3bi/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/Documents/Ensino Médio - 3° ano/LP3 3º/Avaliações/LP3-Avaliacao-3bi/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/Documents/Ensino Médio - 3° ano/LP3 3º/Avaliações/LP3-Avaliacao-3bi/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-cvrqxd6fn6
